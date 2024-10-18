@@ -1,0 +1,28 @@
+.icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 12%;
+    margin-bottom: 8px;
+}
+
+.icon-wrapper:hover {
+    background-color: #1e80ff;
+    color: #fff;
+}
+
+.icon-wrapper-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 32.5px;
+}
+
+.icon-wrapper-name {
+    margin-top: 8px;
+    font-size: 12px;
+}
