@@ -1,7 +1,7 @@
-# @zhifou/icons
+# fifo-icons
 
-[![NPM version](https://img.shields.io/npm/v/@zhifou/icons.svg?style=flat)](https://private.registry.com/@zhifou/icons)
-[![NPM downloads](http://img.shields.io/npm/dm/@zhifou/icons.svg?style=flat)](https://npmjs.org/package/@zhifou/icons)
+[![NPM version](https://img.shields.io/npm/v/fifo-icons.svg?style=flat)](https://private.registry.com/fifo-icons)
+[![NPM downloads](http://img.shields.io/npm/dm/fifo-cons.svg?style=flat)](https://npmjs.org/package/fifo-icons)
 
 
 

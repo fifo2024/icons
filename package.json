@@ -1,6 +1,6 @@
 {
     "name": "fifo-icons",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "fifo-icons图标库",
     "license": "MIT",
     "module": "dist/index.js",
