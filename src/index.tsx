@@ -11,7 +11,7 @@ import LeftOutlinedSvg from './outlined/LeftOutlined';
 import RightOutlinedSvg from './outlined/RightOutlined';
 import UpOutlinedSvg from './outlined/UpOutlined';
 
-import './index.less';
+import './index.css';
 
 export const ICON_LABELS: IKV = {
     LeftOutlined: 'left',
@@ -32,8 +32,8 @@ const Icon: FC<IconProps & { type?: string | any; children: any }> = ({
         <span
             role="img"
             aria-label={ICON_LABELS[type]}
-            className={classNames('zzicon', {
-                [`zzicon-${ICON_LABELS[type]}`]: !!type,
+            className={classNames('fifo-icon', {
+                [`fifo-icon-${ICON_LABELS[type]}`]: !!type,
                 [className]: !!className,
             })}
             style={style ? style : {}}

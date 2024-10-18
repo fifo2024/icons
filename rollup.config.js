@@ -4,7 +4,7 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import { babel } from '@rollup/plugin-babel';
 import replace from '@rollup/plugin-replace';
-import { terser } from 'rollup-plugin-terser';
+// import { terser } from '@rollup/plugin-terser';
 import postcss from 'rollup-plugin-postcss';
 
 export default {
@@ -14,11 +14,11 @@ export default {
         format: 'esm',
     },
     plugins: [
-        typescript(), // 会自动读取sconfig.json配置文件
+        typescript(), // 会自动读取tsconfig.json配置文件
         postcss({
             extensions: ['.css'], // 将less解析成css
             extract: true,
-            modules: true,
+            modules: false,
             less: { javascriptEnabled: true },
         }),
         clear({
@@ -31,7 +31,7 @@ export default {
         nodeResolve({ extensions: ['.js', '.ts', '.tsx', '.svg'] }),
         commonjs(),
         babel({ babelHelpers: 'bundled' }), // 会自动读取babel的配置文件
-        terser(),
+        // terser(),
     ],
     external: [
         {
